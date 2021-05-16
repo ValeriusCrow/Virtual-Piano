@@ -2,7 +2,7 @@ body {
     background-color: #b7e0b6;
 }
 
-kbd {
+.white-keys kbd {
     background-color: white;
     border: solid darkgrey;
     display: inline-block;
@@ -13,7 +13,40 @@ kbd {
     width: 5em;
 }
 
+.black-keys kbd {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    height: 5em;
+    padding-top: 5em;
+    position: relative;
+    text-align: center;
+    bottom: 15.2em;
+    width: 3em;
+}
+
+#w {
+    left: 3.2em;
+}
+
+#e {
+    left: 5.2em;
+}
+
+#t {
+    left: 12.2em;
+}
+
+#y {
+    left: 14.1em
+}
+
+#u {
+    left: 16em;
+}
+
+
 .container {
     margin: 20% auto;
-    width: 35em;
+    width: 29.2em;
 }
